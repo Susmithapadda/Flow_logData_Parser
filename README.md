@@ -30,10 +30,8 @@ The **Flow Log Parser** processes AWS VPC flow logs and maps them to tags based 
 4. **Running Tests**  
    To run the test script and verify that everything works correctly, use this command:
    ```bash
-   python3 -m unittest test_flow_log_parser.py  
+   python3 -m unittest test_flow_log_parser.py
    
-
-  
 ###  Check the output files
 Verify the output files that are generated:
    - `tag_counts.csv`
