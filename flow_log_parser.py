@@ -81,11 +81,11 @@ def main():
     # Parse flow logs
     tag_counts, port_protocol_counts, untagged_count = parse_flow_logs(log_filepath, lookup_table)
 
-    # Write outputs to separate files
+
     write_tag_counts(tag_output_filepath, tag_counts, untagged_count)
     write_port_protocol_counts(port_protocol_output_filepath, port_protocol_counts)
     #Write the outputs in two different files named as tag_counts.csv and port_protocol_counts.csv
-
+    
     print(f"Successfully executed! Output is displayed as Tag counts written to {tag_output_filepath} and Port/protocol combination counts written to {port_protocol_output_filepath}")
 
 if __name__ == "__main__":
