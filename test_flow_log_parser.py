@@ -5,7 +5,7 @@ from flow_log_parser import parse_lookup_table, parse_flow_logs, write_tag_count
 
 
 class TestFlowLogParserBasic(unittest.TestCase):
-    # Basic tests for flow log parser functionality
+    # Basic tests for parsing flow log parser functionality
 
     def setUp(self):
         # Set up temporary input files for testing
