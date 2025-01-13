@@ -1,0 +1,2 @@
+No input files are required.
+The test directly checks the behavior when empty strings ("") are passed as file paths.
